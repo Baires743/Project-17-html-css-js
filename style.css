@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    /* background-color: rgb(199, 199, 199); */
+    /* background: rgb(149,149,149);
+    background: linear-gradient(90deg, rgba(129,129,129,1) 20%, rgba(199,199,199,1) 50%, rgba(255,255,255,1) 80%); */
+    background: rgb(66,66,185);
+    background: linear-gradient(90deg, rgba(66,66,185,1) 10%, rgba(43,43,191,1) 25%, rgba(4,4,187,1) 50%, rgba(17,0,117,1) 75%, rgba(19,0,71,1) 90%);
+    text-align: center;
+}
+
+h1{
+    padding-top: 80px;
+    color: rgb(25, 245, 234);
+    font-size: 80px;
+    margin: 20px;
+}
+
+.input{
+    width: 40%;
+    height: 50px;
+    margin: 5px;
+    padding: 0 0 0 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.884);
+    font-size: 18px;
+    outline: none;
+}
+
+.input-div{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton-agregar{
+    background: none;
+    border: none;
+    color: white;
+}
+
+.boton-agregar:hover{
+    opacity: 0.7;
+}
+
+.item-input{
+    margin: 5px;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.548);
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    outline-color: white;
+    text-transform: capitalize;
+}
+
+.boton-editar{
+    width: 70px;
+    height: 50px;
+    font-size: 25px;
+    background: none;
+    border: none;
+}
+
+.boton-remover{
+    width: 70px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: rgba(102, 0, 0, 0.87);
+    border: none;
+}
+
+
+.boton-editar:hover{
+    opacity: 0.7;
+}
+.boton-remover:hover{
+    opacity: 0.7;
+}
+
+.fa-solid{
+    color: rgb(255, 255, 255);
+}
